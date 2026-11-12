@@ -1,15 +1,16 @@
 # Contribution Guidelines
 
-This list covers open source software that public bodies run to deliver services, plus the open standards that software is built on. It is a curation of the best, not a directory of everything.
+This list covers open source software that public bodies run to deliver services. It is a curation of the best, not a directory of everything.
 
 ## Inclusion criteria
 
 An entry must meet all of these:
 
-- Licensed under an OSI-approved license, a public domain dedication, or an open specification license.
+- Software. Standards, specifications and schemas are not listed on their own; list the software that implements them.
+- Licensed under an OSI-approved license or a public domain dedication.
 - Maintained: not archived, with a commit in the last 12 months.
 - Documented well enough that a public body could evaluate and run it.
-- Shows real use: a government deployment, a public live demo, or for libraries and specifications, a published release.
+- Shows real use: a government deployment, a public live demo, or for libraries, a published release.
 - Not a blockchain or cryptocurrency project.
 
 ## Adding an entry

@@ -1,30 +1,27 @@
 # Awesome GovTech Open Source [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Open source software that public bodies run to deliver services, and the open standards it is built on.
+> Open source software that public bodies run to deliver services.
 
 Coverage is global, with the deepest coverage of US federal, state and local government. Within each section, US projects come first. Every entry is maintained, openly licensed and in real use. See the [inclusion criteria](contributing.md#inclusion-criteria).
 
 ## Contents
 
 - [Design Systems](#design-systems)
-- [Identity and Authentication](#identity-and-authentication)
-- [Forms, Notifications and Publishing](#forms-notifications-and-publishing)
-- [Data Exchange and APIs](#data-exchange-and-apis)
+- [Websites and Publishing](#websites-and-publishing)
+- [Forms and Notifications](#forms-and-notifications)
+- [Digital Public Infrastructure](#digital-public-infrastructure)
 - [Open Data](#open-data)
-- [Civic Participation](#civic-participation)
-- [Service Requests](#service-requests)
+- [Civic Participation and Service Requests](#civic-participation-and-service-requests)
 - [Land Use and Permitting](#land-use-and-permitting)
 - [Transportation and Mobility](#transportation-and-mobility)
-- [Health and Social Services](#health-and-social-services)
-- [Benefits, Tax and Eligibility](#benefits-tax-and-eligibility)
+- [Health](#health)
+- [Benefits, Tax and Social Protection](#benefits-tax-and-social-protection)
 - [Procurement, Budget and Public Finance](#procurement-budget-and-public-finance)
-- [Payments](#payments)
 - [Legislation, Courts and Records](#legislation-courts-and-records)
 - [Elections](#elections)
-- [Emergency Management and Security](#emergency-management-and-security)
+- [Emergency Management](#emergency-management)
 - [GIS and Geospatial](#gis-and-geospatial)
-- [Platforms and Infrastructure](#platforms-and-infrastructure)
-- [Standards and Specifications](#standards-and-specifications)
+- [Platforms, Infrastructure and Security](#platforms-infrastructure-and-security)
 
 ## Design Systems
 
@@ -43,37 +40,50 @@ Coverage is global, with the deepest coverage of US federal, state and local gov
 - [Bootstrap Italia](https://github.com/italia/bootstrap-italia) - Bootstrap-based kit for Italian public administration websites.
 - [Designsystemet](https://github.com/digdir/designsystemet) - Design tokens, CSS and React components for the Norwegian public sector.
 
-## Identity and Authentication
+## Websites and Publishing
 
-- [Login.gov](https://github.com/18F/identity-idp) - Identity provider behind the single sign-in account shared by U.S. federal agencies.
-- [MOSIP](https://github.com/mosip/mosip) - Modular platform governments use to build national digital identity systems.
-- [NL Wallet](https://github.com/MinBZK/nl-wallet) - Phone app for sharing verified personal attributes, built by the Dutch Ministry of the Interior.
-- [EUDI Wallet](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) - Android reference implementation of the European Digital Identity Wallet.
-- [DigiDoc4](https://github.com/open-eid/DigiDoc4-Client) - Desktop client for signing and encryption with Estonian ID cards.
-- [Web eID](https://github.com/web-eid/web-eid-app) - Native app for browser authentication and signing with national eID smart cards.
+- [cloud.gov Pages](https://github.com/cloud-gov/pages-core) - Static website publishing platform for U.S. federal agencies.
+- [weather.gov](https://github.com/weather-gov/weather.gov) - Source of the weather.gov 2.0 website of the National Weather Service.
+- [Mass.gov](https://github.com/massgov/openmass) - Drupal codebase of the Commonwealth of Massachusetts website.
+- [Whitehall](https://github.com/alphagov/whitehall) - Publishing application for content on GOV.UK.
+- [GC Articles](https://github.com/cds-snc/gc-articles) - WordPress-based publishing platform for Government of Canada content.
+- [GovCMS](https://github.com/govCMS/GovCMS) - Drupal distribution for Australian government agencies.
 
-## Forms, Notifications and Publishing
+## Forms and Notifications
 
 - [Touchpoints](https://github.com/GSA/touchpoints) - Customer feedback forms and surveys for U.S. federal agencies.
-- [Mass.gov](https://github.com/massgov/openmass) - Drupal codebase of the Commonwealth of Massachusetts website.
 - [GOV.UK Notify](https://github.com/alphagov/notifications-api) - Email, text message and letter sending service for UK public services.
 - [GC Notify](https://github.com/cds-snc/notification-api) - Government of Canada notification service built on GOV.UK Notify.
 - [GOV.UK Forms](https://github.com/govuk-forms/forms-admin) - Tool for UK government teams to build and publish accessible online forms.
 - [GC Forms](https://github.com/cds-snc/platform-forms-client) - Bilingual form builder for Government of Canada services.
 - [FormSG](https://github.com/opengovsg/FormSG) - Form builder that runs form.gov.sg for Singapore government agencies.
 - [Open Forms](https://github.com/open-formulieren/open-forms) - Form builder for Dutch municipalities aligned with Common Ground.
-- [Access to Justice](https://github.com/digitalservicebund/a2j-rechtsantragstelle) - Online court application services of the German Federal Ministry of Justice.
-- [Whitehall](https://github.com/alphagov/whitehall) - Publishing application for content on GOV.UK.
-- [GC Articles](https://github.com/cds-snc/gc-articles) - WordPress-based publishing platform for Government of Canada content.
-- [GovCMS](https://github.com/govCMS/GovCMS) - Drupal distribution for Australian government agencies.
 
-## Data Exchange and APIs
+## Digital Public Infrastructure
+
+### Identity
+
+- [Login.gov](https://github.com/18F/identity-idp) - Identity provider behind the single sign-in account shared by U.S. federal agencies.
+- [MOSIP](https://github.com/mosip/mosip) - Modular platform governments use to build national digital identity systems.
+- [OpenCRVS](https://github.com/opencrvs/opencrvs-core) - Civil registration and vital statistics for births, deaths and marriages.
+- [NL Wallet](https://github.com/MinBZK/nl-wallet) - Phone app for sharing verified personal attributes, built by the Dutch Ministry of the Interior.
+- [EUDI Wallet](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) - Android reference implementation of the European Digital Identity Wallet.
+- [DigiDoc4](https://github.com/open-eid/DigiDoc4-Client) - Desktop client for signing and encryption with Estonian ID cards.
+- [Web eID](https://github.com/web-eid/web-eid-app) - Native app for browser authentication and signing with national eID smart cards.
+
+### Data Exchange
 
 - [API Umbrella](https://github.com/NREL/api-umbrella) - API management with keys, rate limiting and analytics. Used by api.data.gov.
 - [HMDA Platform](https://github.com/cfpb/hmda-platform) - Filing, validation and publication backend for Home Mortgage Disclosure Act data.
 - [X-Road](https://github.com/nordic-institute/X-Road) - Data exchange layer for signed, secure messaging between government information systems.
 - [DIGIT](https://github.com/egovernments/Digit-Core) - Multi-tenant microservices platform for public service delivery. Used by states across India.
 - [UK API Catalogue](https://github.com/co-cddo/api-catalogue) - Cross-government catalogue of UK public sector APIs.
+
+### Payments
+
+- [GOV.UK Pay](https://github.com/govuk-pay/pay-connector) - Payment platform for UK central government, local councils, police and the NHS.
+- [Mojaloop](https://github.com/mojaloop/central-ledger) - Clearing and settlement for interoperable instant payment hubs.
+- [Payment Hub EE](https://github.com/openMF/ph-ee-start-here) - Payment orchestration middleware for government-to-person and real-time payments.
 
 ## Open Data
 
@@ -86,18 +96,15 @@ Coverage is global, with the deepest coverage of US federal, state and local gov
 - [Avoindata.fi](https://github.com/vrk-kpa/opendata) - Source of the Finnish national open data portal.
 - [OCDS Data Registry](https://github.com/open-contracting/data-registry) - Registry that collects procurement data from government publishers worldwide.
 
-## Civic Participation
+## Civic Participation and Service Requests
 
+- [uReport](https://github.com/City-of-Bloomington/uReport) - Constituent request management with an Open311 GeoReport v2 endpoint. Used by the City of Bloomington, Indiana.
+- [Polis](https://github.com/pol-is/polis) - Real-time system for gathering and analyzing opinion at scale from open-ended input.
 - [Decidim](https://github.com/decidim/decidim) - Participatory democracy framework for budgets, consultations, assemblies and proposals. Used by Barcelona City Council.
 - [CONSUL Democracy](https://github.com/consuldemocracy/consuldemocracy) - Citizen participation platform for debates, proposals, voting and participatory budgets. Used by Madrid City Council.
-- [Polis](https://github.com/pol-is/polis) - Real-time system for gathering and analyzing opinion at scale from open-ended input.
 - [Your Priorities](https://github.com/CitizensFoundation/your-priorities-app) - Platform for collecting and debating ideas. Used by the City of Reykjavik.
 - [mein.berlin](https://github.com/liqd/a4-meinberlin) - Participation platform of the State of Berlin.
 - [Kerrokantasi](https://github.com/City-of-Helsinki/kerrokantasi) - Resident hearing and consultation service. Used by the City of Helsinki.
-
-## Service Requests
-
-- [uReport](https://github.com/City-of-Bloomington/uReport) - Constituent request management with an Open311 GeoReport v2 endpoint. Used by the City of Bloomington, Indiana.
 - [FixMyStreet](https://github.com/mysociety/fixmystreet) - Street problem reporting that routes reports to the responsible council, with Open311 support.
 - [Mark-a-Spot](https://github.com/markaspot/mark-a-spot) - Civic issue tracker and Open311 GeoReport v2 server built on Drupal.
 
@@ -108,7 +115,6 @@ Coverage is global, with the deepest coverage of US federal, state and local gov
 - [BOPS](https://github.com/unboxed/bops) - Back-office case management for English local planning authorities, from the Open Digital Planning programme.
 - [PlanX](https://github.com/theopensystemslab/planx-new) - Platform for building and publishing digital planning services such as applications and pre-application checks.
 - [Planning Data Platform](https://github.com/digital-land/digital-land.info) - Source of planning.data.gov.uk, the national platform for English planning and housing data.
-- [Digital Planning Data Schemas](https://github.com/theopensystemslab/digital-planning-data-schemas) - JSON Schemas for planning applications, prior approvals and related records.
 - [eBau](https://github.com/inosca/ebau) - Electronic building permit processing. Used by the Swiss cantons of Bern, Grisons, Schwyz, Solothurn and Uri.
 - [Lupapiste](https://github.com/lupapiste/lupapiste) - Building, planning and land use permit service for Finnish municipalities.
 - [Building Permit Hub](https://github.com/bcgov/HOUS-permit-portal) - Standardized building permit submission with automated completeness checks across British Columbia local governments.
@@ -138,32 +144,28 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 
 ### Mobility Data
 
-- [Mobility Data Specification](https://github.com/openmobilityfoundation/mobility-data-specification) - Data standard cities use to manage shared scooters, bikes and other right-of-way operators.
 - [GTFS Validator](https://github.com/MobilityData/gtfs-validator) - Reference validator for static GTFS schedule feeds.
 - [GBFS Validator](https://github.com/MobilityData/gbfs-validator) - Reference validator for GBFS shared mobility feeds.
 - [gtfs-validator for Python](https://github.com/veodyn/gtfs-validator) - Pure-Python GTFS schedule validator with no JVM dependency.
 - [gbfs-validator for Python](https://github.com/veodyn/gbfs-validator) - Pure-Python GBFS validator, differentially tested against the reference validator.
 - [gtfs-rt-validator for Python](https://github.com/veodyn/gtfs-rt-validator) - Pure-Python GTFS Realtime validator with a mode that reproduces the reference Java validator output.
 
-## Health and Social Services
+## Health
 
 - [Blue Button 2.0](https://github.com/CMSgov/bluebutton-web-server) - OAuth2 provider and FHIR API giving Medicare beneficiaries access to their claims data.
 - [Beneficiary Claims Data API](https://github.com/CMSgov/bcda-app) - Bulk FHIR API delivering Medicare claims data to accountable care organizations.
 - [DIBBs eCR Viewer](https://github.com/CDCgov/dibbs-ecr-viewer) - Viewer for electronic case reports used by public health agencies.
-- [TANF Data Portal](https://github.com/HHS/TANF-app) - Reporting system for states, territories and tribes submitting TANF program data.
 - [CMCS eRegulations](https://github.com/Enterprise-CMCS/cmcs-eregulations) - Research tool for Medicaid and CHIP regulations and policy guidance.
 - [DHIS2](https://github.com/dhis2/dhis2-core) - Health information platform for aggregate and individual-level data. Used by ministries of health in 80 low and middle-income countries.
 - [OpenMRS](https://github.com/openmrs/openmrs-core) - Medical record system platform for care delivery in resource-constrained settings.
-- [OpenCRVS](https://github.com/opencrvs/opencrvs-core) - Civil registration and vital statistics for births, deaths and marriages.
-- [OpenSPP](https://github.com/OpenSPP/openspp-modules) - Social protection management information system built as Odoo modules.
-- [OpenG2P](https://github.com/OpenG2P/openg2p-registry) - Government-to-person registry and benefits delivery platform.
 - [openIMIS](https://github.com/openimis/openimis-be_py) - Health insurance and social benefits management for national schemes.
 - [OpenELIS Global](https://github.com/DIGI-UW/OpenELIS-Global-2) - Laboratory information system for public health and national reference laboratories.
 - [OpenLMIS](https://github.com/OpenLMIS/openlmis-ref-distro) - Logistics management for health commodity supply chains.
 - [SORMAS](https://github.com/SORMAS-Foundation/SORMAS-Project) - Outbreak surveillance and case management for public health agencies.
 
-## Benefits, Tax and Eligibility
+## Benefits, Tax and Social Protection
 
+- [TANF Data Portal](https://github.com/HHS/TANF-app) - Reporting system for states, territories and tribes submitting TANF program data.
 - [PolicyEngine US](https://github.com/PolicyEngine/policyengine-us) - Microsimulation model of US federal and state taxes and benefits.
 - [GetYourRefund](https://github.com/codeforamerica/vita-min) - Free tax filing services that submit federal and state returns through IRS e-file.
 - [MyFriendBen](https://github.com/MyFriendBen/benefits-api) - Benefit eligibility screening API behind the MyFriendBen screener.
@@ -173,6 +175,8 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 - [Aides Jeunes](https://github.com/DNUM-SocialGouv/aides-jeunes) - Simulator of French social benefits for young people, built on OpenFisca.
 - [Mon Entreprise](https://github.com/betagouv/mon-entreprise) - Social contribution and tax simulators for French businesses, run by Urssaf.
 - [Publicodes](https://github.com/publicodes/publicodes) - Declarative language for writing rules as code.
+- [OpenSPP](https://github.com/OpenSPP/openspp-modules) - Social protection management information system built as Odoo modules.
+- [OpenG2P](https://github.com/OpenG2P/openg2p-registry) - Government-to-person registry and benefits delivery platform.
 
 ## Procurement, Budget and Public Finance
 
@@ -183,12 +187,6 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 - [Federal Audit Clearinghouse](https://github.com/GSA-TTS/FAC) - Submission and search system for federal grant audit reports.
 - [Unity Grant Manager](https://github.com/bcgov/Unity) - Grant intake, assessment, approval and payment system of the British Columbia government.
 - [Prozorro](https://github.com/ProzorroUKR/openprocurement.api) - API of the Ukrainian public e-procurement system.
-
-## Payments
-
-- [GOV.UK Pay](https://github.com/govuk-pay/pay-connector) - Payment platform for UK central government, local councils, police and the NHS.
-- [Mojaloop](https://github.com/mojaloop/central-ledger) - Clearing and settlement for interoperable instant payment hubs.
-- [Payment Hub EE](https://github.com/openMF/ph-ee-start-here) - Payment orchestration middleware for government-to-person and real-time payments.
 
 ## Legislation, Courts and Records
 
@@ -201,6 +199,7 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 - [Alaveteli](https://github.com/mysociety/alaveteli) - Freedom of information request platform that publishes requests and responses.
 - [Indigo](https://github.com/laws-africa/indigo) - Drafting, managing and publishing legislation in Akoma Ntoso format.
 - [Find Case Law](https://github.com/nationalarchives/ds-caselaw-public-ui) - Public frontend of The National Archives service for UK court judgments.
+- [Access to Justice](https://github.com/digitalservicebund/a2j-rechtsantragstelle) - Online court application services of the German Federal Ministry of Justice.
 - [Open Parliament TV](https://github.com/OpenParliamentTV/OpenParliamentTV-Platform) - Search and synchronized video for parliamentary debates.
 
 ## Elections
@@ -210,14 +209,11 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 - [ElectionGuard](https://github.com/Election-Tech-Initiative/electionguard-python) - End-to-end verifiable election encryption and audits.
 - [Abacus](https://github.com/kiesraad/abacus) - Results entry and seat allocation software from the Dutch Electoral Council.
 
-## Emergency Management and Security
+## Emergency Management
 
 - [MAGE](https://github.com/ngageoint/mage-server) - Mobile situational awareness and field data collection, developed at the National Geospatial-Intelligence Agency.
 - [NOAA Flood Inundation Mapping](https://github.com/NOAA-OWP/inundation-mapping) - Flood inundation mapping for the U.S. National Water Model.
 - [CWMS Data API](https://github.com/USACE/cwms-data-api) - Water management data API of the U.S. Army Corps of Engineers.
-- [weather.gov](https://github.com/weather-gov/weather.gov) - Source of the weather.gov 2.0 website of the National Weather Service.
-- [CSET](https://github.com/cisagov/cset) - Cybersecurity evaluation for industrial control systems and critical infrastructure, from CISA.
-- [ScubaGear](https://github.com/cisagov/ScubaGear) - Assesses Microsoft 365 tenants against CISA secure configuration baselines.
 - [ThinkHazard](https://github.com/GFDRR/thinkhazard) - Natural hazard levels for any location, from the Global Facility for Disaster Reduction and Recovery.
 
 ## GIS and Geospatial
@@ -228,24 +224,16 @@ Public transit software is covered in depth by Awesome Transit, listed under [Re
 - [map.geo.admin.ch](https://github.com/geoadmin/web-mapviewer) - Map viewer of the Swiss federal geoportal.
 - [swissgeol Viewer](https://github.com/swisstopo/swissgeol-viewer-suite) - 3D viewer for Swiss geological data, from swisstopo.
 
-## Platforms and Infrastructure
+## Platforms, Infrastructure and Security
 
-- [cloud.gov Pages](https://github.com/cloud-gov/pages-core) - Static website publishing platform for U.S. federal agencies.
 - [cloud.gov AWS Broker](https://github.com/cloud-gov/aws-broker) - Cloud Foundry service broker for managed databases and caches on cloud.gov.
 - [Big Bang](https://github.com/DoD-Platform-One/big-bang) - Declarative Kubernetes delivery of hardened packages from DoD Platform One.
 - [.gov Registrar](https://github.com/cisagov/manage.get.gov) - Registrar where U.S. governments request and manage .gov domains, run by CISA.
+- [CSET](https://github.com/cisagov/cset) - Cybersecurity evaluation for industrial control systems and critical infrastructure, from CISA.
+- [ScubaGear](https://github.com/cisagov/ScubaGear) - Assesses Microsoft 365 tenants against CISA secure configuration baselines.
 - [MoJ Cloud Platform](https://github.com/ministryofjustice/cloud-platform) - Hosting platform of the UK Ministry of Justice.
 - [publiccode.yml Crawler](https://github.com/publiccodeyml/publiccode-crawler) - Crawler that builds the Developers Italia public software catalog.
 - [Open Resource Exchange](https://github.com/canada-ca/ore-ero) - Government of Canada catalog of open source software and resources.
-
-## Standards and Specifications
-
-- [VIP Specification](https://github.com/votinginfoproject/vip-specification) - Format for election offices to publish polling place and ballot data.
-- [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) - Metadata standard for describing public sector software repositories.
-- [Open Contracting Data Standard](https://github.com/open-contracting/standard) - Schema for publishing public procurement data.
-- [DCAT-AP](https://github.com/SEMICeu/DCAT-AP) - Application profile for describing public sector datasets in European data portals.
-- [Digital Land Specification](https://github.com/digital-land/specification) - Dataset and field definitions behind the English planning data platform.
-- [Italian Semantic Assets](https://github.com/italia/dati-semantic-assets) - Ontologies, vocabularies and schemas for the Italian National Data Catalog.
 
 ## Related Lists
 
