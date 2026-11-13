@@ -45,6 +45,7 @@ Coverage is global, with the deepest coverage of US federal, state and local gov
 - [cloud.gov Pages](https://github.com/cloud-gov/pages-core) - Static website publishing platform for U.S. federal agencies.
 - [weather.gov](https://github.com/weather-gov/weather.gov) - Source of the weather.gov 2.0 website of the National Weather Service.
 - [Mass.gov](https://github.com/massgov/openmass) - Drupal codebase of the Commonwealth of Massachusetts website.
+- [PDF/UA & ADA Title II Compliance Checker](https://github.com/hadesloc/pdfua-ada-checker) - Validates public-sector PDF documents against ISO 14289-1 and WCAG 2.1 AA using veraPDF.
 - [Whitehall](https://github.com/alphagov/whitehall) - Publishing application for content on GOV.UK.
 - [GC Articles](https://github.com/cds-snc/gc-articles) - WordPress-based publishing platform for Government of Canada content.
 - [GovCMS](https://github.com/govCMS/GovCMS) - Drupal distribution for Australian government agencies.
